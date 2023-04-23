@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/thehappycode/Documents/Programing/Keycloak/src/MyWebApi/MyWebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/thehappycode/Documents/Programing/Keycloak/src/MyWebApi/MyWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/thehappycode/Documents/Programing/Keycloak/src/MyWebApi/MyWebApi.csproj",
+        "projectName": "MyWebApi",
+        "projectPath": "/Users/thehappycode/Documents/Programing/Keycloak/src/MyWebApi/MyWebApi.csproj",
+        "packagesPath": "/Users/thehappycode/.nuget/packages/",
+        "outputPath": "/Users/thehappycode/Documents/Programing/Keycloak/src/MyWebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/thehappycode/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/thehappycode/Documents/Programing/DotNet/DotNet6/DotNet6-Crash/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
